@@ -1,0 +1,47 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #f8bbd0 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #f8bbd0 !important;
+  }
+}
+.case{
+  background-color: blueviolet;
+  border-radius: 30px;
+  font-size: 25px;
+  margin: 20px;
+  padding: 17px;
+}
+.case:hover{
+  background-color: purple;
+  border-radius: 30px;
+  font-size: 25px;
+  margin: 20px;
+}
+table{
+  font-size: 20px;
+}
